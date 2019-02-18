@@ -1,3 +1,5 @@
+欢迎加入QQ 群讨论：655685367
+
 字符串：
 http://php.net/manual/zh/ref.strings.php
 
