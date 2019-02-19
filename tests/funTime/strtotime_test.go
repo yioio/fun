@@ -3,7 +3,7 @@ package funTime
 import (
     "testing" 
 	. "github.com/smartystreets/goconvey/convey" 
-	"go.increase/fun/funTime"
+	"github.com/yioio/fun/funTime"
 	// "fmt"
 	"time"
 )

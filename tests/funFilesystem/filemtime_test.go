@@ -3,8 +3,8 @@ package funDatatype
 import (
     "testing"
 	. "github.com/smartystreets/goconvey/convey"
-	"go.increase/fun/funTime"
-	"go.increase/fun/funFilesystem"
+	"github.com/yioio/fun/funTime"
+	"github.com/yioio/fun/funFilesystem"
 )
 
 func Test_Filemtime(t *testing.T) {

@@ -3,7 +3,7 @@ package funDatatype
 import (
     "testing"
 	. "github.com/smartystreets/goconvey/convey"
-	"go.increase/fun/funDatatype"
+	"github.com/yioio/fun/funDatatype"
 	"reflect"
 )
 

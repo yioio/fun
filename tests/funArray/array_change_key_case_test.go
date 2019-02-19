@@ -3,7 +3,7 @@ package funArray
 import (
     "testing"
 	. "github.com/smartystreets/goconvey/convey"
-	"go.increase/fun/funArray"
+	"github.com/yioio/fun/funArray"
 )
 
 func Test_Array_change_key_case(t *testing.T) {

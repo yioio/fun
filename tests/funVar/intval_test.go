@@ -3,7 +3,7 @@ package funVar
 import(
     "testing"
 	. "github.com/smartystreets/goconvey/convey"
-	"go.increase/fun/funVar"
+	"github.com/yioio/fun/funVar"
 	"reflect"
 )
 

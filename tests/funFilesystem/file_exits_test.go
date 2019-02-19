@@ -3,7 +3,7 @@ package funDatatype
 import (
     "testing"
 	. "github.com/smartystreets/goconvey/convey"
-	"go.increase/fun/funFilesystem"
+	"github.com/yioio/fun/funFilesystem"
 )
 
 func Test_File_exits(t *testing.T) {

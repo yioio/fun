@@ -8,7 +8,7 @@ import(
 import (
     "testing"
 	. "github.com/smartystreets/goconvey/convey"
-	"go.increase/fun/funArray"
+	"github.com/yioio/fun/funArray"
 )
 
 func Test_In_array_string(t *testing.T) {

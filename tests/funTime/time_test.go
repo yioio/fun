@@ -3,8 +3,8 @@ package funTime
 import (
     "testing"
 	. "github.com/smartystreets/goconvey/convey"
-	"go.increase/fun/funTime"
-	"go.increase/fun/funVar"
+	"github.com/yioio/fun/funTime"
+	"github.com/yioio/fun/funVar"
 	// "reflect"
 	"os/exec"
 	"strings"

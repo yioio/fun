@@ -2,7 +2,7 @@ package funArray
 
 import(
 	"strings"
-	// "go.increase/fun/funString"
+	// "github.com/yioio/fun/funString"
 )
 
 /**
