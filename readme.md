@@ -19,3 +19,6 @@ http://php.net/manual/zh/ref.datetime.php
 <!-- http://php.net/manual/zh/refs.calendar.php
 http://php.net/manual/zh/book.datetime.php
 http://php.net/manual/zh/ref.datetime.php -->
+
+hash:
+http://php.net/manual/en/ref.hash.php 
