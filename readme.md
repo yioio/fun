@@ -10,8 +10,6 @@ https://github.com/yioio/fun/blob/master/doc/wiki.md
     go get -u github.com/yioio/fun
     go get -u github.com/smartystreets/goconvey/convey 
 
-
-
 # 使用示例 #
 
     package main
@@ -31,7 +29,10 @@ https://github.com/yioio/fun/blob/master/doc/wiki.md
 # Code Contribution Guide 代码贡献指南 #
 https://github.com/yioio/fun/blob/master/doc/guide-code-contribution.md
 
-# Function Dictionary #
+# Function Dictionary 功能字典 #
 https://github.com/yioio/fun/blob/master/doc/function-dictionary.md
+
+# Feedback  反馈 #
+If you have questions, an email to yumoop@163.com is welcome
 
 欢迎加入QQ 群讨论：655685367
