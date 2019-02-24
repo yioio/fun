@@ -1,5 +1,5 @@
 # Introduction 简介 #
-1. Use Golang implement the commonly used built-in PHP functions. 使用Golang实现PHP的常用内置函数。
+1. Use Golang implement the commonly used built-in PHP functions. 使用Golang实现PHP的内置函数。
 2. Similar to php2go | php2golang | go2php | golang2php and other projects. 类似于 php2go | php2golang | go2php | golang2php 等项目
 3. Welcome all friends who are familiar with or recognize PHP built-in functions to use and improve this project. 欢迎所有熟悉或者认可 php 内置函数的朋友们一起使用并完善本项目
 
@@ -44,4 +44,4 @@ https://github.com/yioio/fun/blob/master/docs/guide-code-contribution.md
 
 If you have questions, an email to yumoop@163.com is welcome
 
-如果您有任何问题，欢迎发邮件至yumoop@163.com或者加入 QQ 群讨论：655685367
+如果您有任何问题，欢迎发邮件至 yumoop@163.com 或者加入 QQ 群讨论：655685367
