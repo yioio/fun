@@ -1,5 +1,5 @@
 # Functional dictionary & development plan &  功能字典 & 开发计划#
-## 项目进度
+
   * [ ] 未开始
   * [x] 已完成
 
