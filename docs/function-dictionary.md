@@ -1,10 +1,10 @@
 # Functional dictionary & development plan &  功能字典 & 开发计划#
 
-  * [ ] 未开始  * [x] 已完成
+  * [ ] 未开始
 
 | Status | Fuction |      Description      | Reference | Link |
 | ----- | ----- | ----- | ----- | ------ | 
-|  √ | array_change_key_case | Changes the case of all keys in an array | array | <a style="color:yellow" href="array_change_key_case.go">code</a>  <a href="array_change_key_case.go">unit test</a>  <a href="array_change_key_case.go">php.net</a>  | array_change_key_case_test.go | http://php.net/manual/en/function.array-change-key-case.php |
+|  √ | * [ ] array_change_key_case | Changes the case of all keys in an array | array | <a style="color:yellow" href="array_change_key_case.go">code</a>  <a href="array_change_key_case.go">unit test</a>  <a href="array_change_key_case.go">php.net</a>  | array_change_key_case_test.go | http://php.net/manual/en/function.array-change-key-case.php |
 || array_chunk | Split an array into chunks | array | 1 |
 
 ## 其它信息
