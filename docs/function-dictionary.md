@@ -1,6 +1,6 @@
 # Functional dictionary & development plan &  功能字典 & 开发计划#
 
-<a style="color:yellow" href="array_change_key_case.go">code</a>
+- [x] 
 
 | Status | Fuction |      Description      | Reference | Link |
 | ----- | ----- | ----- | ----- | ------ | 
