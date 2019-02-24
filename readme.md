@@ -1,6 +1,8 @@
-类似于 php2go 项目
+# 仓库简介 #
+类似于 php2go | php2golang | go2php | golang2php 等项目
 
-欢迎加入QQ 群讨论：655685367
+# 代码贡献指南 #
+
 
 字符串：
 http://php.net/manual/zh/ref.strings.php
@@ -22,3 +24,6 @@ http://php.net/manual/zh/ref.datetime.php -->
 
 hash:
 http://php.net/manual/en/ref.hash.php 
+
+
+欢迎加入QQ 群讨论：655685367
