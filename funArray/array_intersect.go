@@ -3,14 +3,14 @@ package funArray
 import(
 	// "reflect"
 )
-//type compArrayType = []interface{}
 
-func Array_diff(array1  []interface{}, array2  []interface{})  []interface{} {
+
+func Array_intersect(array1, array2 []interface{}) []interface{} {
 	diffArr :=  []interface{}{}
 	for _, val := range array1 {
-		if In_array(val, array2) == false {
+		if In_array(val, array2) == true {
 			diffArr = append(diffArr, val)
 		}
 	}
-		return diffArr
+	return diffArr
 }

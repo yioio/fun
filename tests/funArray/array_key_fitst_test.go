@@ -8,13 +8,13 @@ import (
 )
 
 //
-func Test_Array_push(t *testing.T) {
+func Test_Array_key_first(t *testing.T) {
 
-	Convey("检查： Array_push", t, func() {
-		orgArr := []interface{}{"test", 000, "ok"}
-		funArray.Array_push(&orgArr, "test0")   // []
-		log.Println("Test_Array_push 1 return is ", orgArr)
-		So(orgArr, ShouldEqual, orgArr)
+	Convey("检查： Array_key_first", t, func() {
+		orgArr := map[interface{}]interface{}{"test":"00", 0:000, 1:"ok"}
+		res := funArray.Array_key_first(orgArr)   // []
+		log.Println("Array_key_first 1 return is ", res)
+		So(res, ShouldEqual, res)
 	})
 
 

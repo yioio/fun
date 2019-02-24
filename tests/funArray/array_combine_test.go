@@ -1,42 +1,34 @@
 package funArray
-
-import(
-	"reflect"
-	"sort"
-)
+//
+//import(
+//	"reflect"
+//	"sort"
+//)
 
 import (
     "testing"
 	. "github.com/smartystreets/goconvey/convey"
 	"github.com/yioio/fun/funArray"
+    "log"
+    "reflect"
 )
 
-func Test_Array_keys(t *testing.T) {
+func Test_Array_combine(t *testing.T) {
 	
-	Convey("检查： Array_column", t, func() {
-		processRet := funArray.Array_keys(map[string]interface{}{"apple":"123","b":"123"})
-		ret := []string{"apple", "b"}
-		sort.Strings(ret)
-        So(reflect.TypeOf(processRet), ShouldEqual, reflect.TypeOf(ret))
-        So(processRet[0], ShouldEqual, ret[0])
-        So(processRet[1], ShouldEqual, ret[1])
-	})
-	
-	Convey("检查： Array_column_int", t, func() {
-		processRet := funArray.Array_keys_int(map[int]interface{}{1:"123",2:"123"})
-		ret := []int{int(1), int(2)}
-		sort.Ints(ret)
-        So(reflect.TypeOf(processRet), ShouldEqual, reflect.TypeOf(ret))
-        So(processRet[0], ShouldEqual, ret[0])
-        So(processRet[1], ShouldEqual, ret[1]) 
-	})
-	
-	Convey("检查： Array_column_interface", t, func() { 
-		processRet := funArray.Array_keys_interface(map[interface{}]interface{}{1:"123","apple":"123"})
-		ret := []interface{}{"apple", 1}
-		// sort.Sort(ret)
-        So(reflect.TypeOf(processRet), ShouldEqual, reflect.TypeOf(ret))
-        So(funArray.In_array(1, processRet), ShouldEqual, funArray.In_array(1, ret))
-        So(funArray.In_array("apple", processRet), ShouldEqual, funArray.In_array("apple", ret))
+	Convey("检查： Array_combine", t, func() {
+		// 1.数量不等
+		t1_arrKeys := []string{"1", "2", "3","4"}
+		T1_arrValues :=[]interface{}{"test", t1_arrKeys, []int{123} }
+		processRet1 , isOk1 := funArray.Array_combine(t1_arrKeys, T1_arrValues)
+		log.Println("Test_Array_combine  1 return ", isOk1, processRet1)
+		// 2.数量不等
+		t2_arrKeys := []string{"1", "2", "3","ok"}
+		T2_arrValues :=[]interface{}{"test", t2_arrKeys, []int{123}, "ok" }
+		processRet2 , isOk2 := funArray.Array_combine(t2_arrKeys, T2_arrValues)
+		log.Println("Test_Array_combine  2 return ", processRet2 , isOk2)
+		log.Println("Test_Array_combine   return eme", processRet2["ok"])
+		log.Println("Test_Array_combine   return eme Type", reflect.TypeOf(processRet2["ok"]))
+        //So(processRet[0], ShouldEqual, ret[0])
+        //So(processRet[1], ShouldEqual, ret[1])
 	})
 }

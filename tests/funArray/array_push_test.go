@@ -8,12 +8,13 @@ import (
 )
 
 //
-func Test_Array_fill_keys(t *testing.T) {
+func Test_Array_push(t *testing.T) {
 
-	Convey("检查： Array_fill", t, func() {
-		processRet1 := funArray.Array_fill(5, 8, "123456")   // []
-		log.Println("Test_Array_fill 1 return is ", processRet1)
-		So(processRet1, ShouldEqual, processRet1)
+	Convey("检查： Array_push", t, func() {
+		orgArr := []interface{}{"test", 000, "ok"}
+		funArray.Array_push(&orgArr, "test0")   // []
+		log.Println("Test_Array_push 1 return is ", orgArr)
+		//So(orgArr, ShouldEqual, orgArr)
 	})
 
 

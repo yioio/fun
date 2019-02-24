@@ -1,16 +1,18 @@
 package funArray
 
 import(
-	// "reflect"
+	"errors"
 )
-//type compArrayType = []interface{}
 
-func Array_diff(array1  []interface{}, array2  []interface{})  []interface{} {
-	diffArr :=  []interface{}{}
-	for _, val := range array1 {
-		if In_array(val, array2) == false {
-			diffArr = append(diffArr, val)
-		}
+func Array_combine(arrayKeys [] string, arrayValues []interface{}) (map[string]interface{}, error)  {
+	combineArr := make(map[string]interface{})
+	KeysLen := len(arrayKeys)
+	valuesLen := len(arrayValues)
+	if KeysLen != valuesLen {
+		return combineArr, errors.New("键和值的数量不不一致")
 	}
-		return diffArr
+	for i := 0; i < KeysLen; i++ {
+		combineArr[arrayKeys[i]] = arrayValues[i]
+	}
+	return combineArr, nil
 }

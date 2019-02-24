@@ -8,12 +8,13 @@ import (
 )
 
 //
-func Test_Array_fill_keys(t *testing.T) {
+func Test_Array_reverse(t *testing.T) {
 
-	Convey("检查： Array_fill", t, func() {
-		processRet1 := funArray.Array_fill(5, 8, "123456")   // []
-		log.Println("Test_Array_fill 1 return is ", processRet1)
-		So(processRet1, ShouldEqual, processRet1)
+	Convey("检查： Array_reverse", t, func() {
+		Arrayreverse := []interface{}{"test", 123,"123468", []interface{}{"sfasfdsa", 123}}
+		processRet1 := funArray.Array_reverse(Arrayreverse)   // []
+		log.Println("Array_reverse 1 return is ", processRet1)
+		//So(processRet1, ShouldEqual, processRet1)
 	})
 
 

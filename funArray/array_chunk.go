@@ -1,48 +1,25 @@
 package funArray
 
 import(
-	"strings"
-
+	"github.com/yioio/fun/funVar"
+	"math"
 )
-
-type mapArray map[string]interface{}
-
-const (
-	CaseLOWER = "lower"
-	CaseUPPER = "upper"
-)
-/**
- * mapArray keys case to lower or upper
- */
-func Array_change_key_case(mapArray map[string]interface{}, caseString string) map[string]interface{} {
-	var caseArr =  mapArray
-	if caseString == CaseUPPER {
-		caseArr = Array_change_key_case_upper(mapArray)
-	} else if caseString == CaseLOWER {
-		caseArr = Array_change_key_case_upper(mapArray)
-	}
-	return caseArr
-}
+// ArraySlice type
+type ArraySlice []interface{}
 
 /**
- * CASE_UPPER
+ *  @param []interface{} inputArr  The array to work on
+ *  @param int  size The size of each chunk
  */
-func Array_change_key_case_upper(arr mapArray) mapArray {
-	var caseMapArray = mapArray{}
-	for k, v := range arr {
-		caseMapArray[strings.ToUpper(k)] = v
+func Array_chunk(inputArr ArraySlice, size int ) ArraySlice {
+	length := len(inputArr)
+	count := int(math.Ceil(funVar.Float64val(length) / funVar.Float64val(size)))
+	chunckArr := make(ArraySlice, count)
+	for i := 0; i < count-1; i++ {
+		chunckArr[i] = inputArr[i*size : (i+1)*size]
 	}
-	return  caseMapArray
-}
+	chunckArr[count-1] = inputArr[size*(count-1):]
 
-/**
- * CASE_LOWER
- */
-func Array_change_key_case_lower(arr mapArray) mapArray {
-	var caseMapArray = mapArray{}
-	for k, v := range arr {
-		caseMapArray[strings.ToLower(k)] = v
-	}
-	return  caseMapArray
+	return chunckArr
 }
 

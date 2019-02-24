@@ -1,18 +1,17 @@
 package funArray
 
-import(
-	"errors"
-)
-
-func Array_combine(arrayKeys [] string, arrayValues []interface{}) (map[string]interface{}, error)  {
-	combineArr := make(map[string]interface{})
-	KeysLen := len(arrayKeys)
-	valuesLen := len(arrayValues)
-	if KeysLen != valuesLen {
-		return combineArr, errors.New("键和值的数量不不一致")
+/**
+  * array_fill_keys — 使用指定的键和值填充数组
+  * @params []interface{} arrayKeys  使用该数组的值作为键
+  * @params []interface{} arrayValues  填充使用的值 这里是一个数组，方便支持多个值
+  */
+func Array_fill_keys(arrayKeys [] interface{}, arrayValues []interface{}) map[interface{}]interface{} {
+	fillArr := map[interface{}]interface{}{}
+	for _, v := range arrayKeys {
+		for _, val := range arrayValues {
+			fillArr[v] = val
+		}
 	}
-	for i := 0; i < KeysLen; i++ {
-		combineArr[arrayKeys[i]] = arrayValues[i]
-	}
-	return combineArr, nil
+	return fillArr
 }
+

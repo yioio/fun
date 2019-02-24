@@ -4,12 +4,15 @@ import(
 	// "reflect"
 )
 
-func Array_key_exists(needle string, haystack map[string]interface{}) bool {
-	var isExist = false
-	for key , _ := range haystack{
-		if(needle == key) {
-			isExist = true
+func Array_count_values(arr []interface{}) map[interface{}]uint {
+	countValues := make(map[interface{}]uint)
+	for _, v := range arr {
+		if c, ok := countValues[v]; ok {
+			countValues[v] = c + 1
+		} else {
+			countValues[v] = 1
 		}
 	}
-	return isExist
+
+	return countValues
 }

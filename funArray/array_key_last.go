@@ -9,9 +9,10 @@ import(
  *
  * @return interface{}
  */
-func Array_key_first(array map[interface{}]interface{}) interface{} {
+func Array_key_last(arr map[interface{}]interface{}) interface{} {
 	var k interface{}
-	for key, _ := range array {
+
+	for key, _:= range arr {
 		k = key
 		break;
 	}

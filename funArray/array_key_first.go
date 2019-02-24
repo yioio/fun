@@ -3,14 +3,17 @@ package funArray
 import(
 	// "reflect"
 )
-//type compArrayType = []interface{}
-
-func Array_diff(array1 , array2  []interface{})  []interface{} {
-	diffArr :=  []interface{}{}
-	for _, val := range array1 {
-		if In_array(val, array2) == false {
-			diffArr = append(diffArr, val)
-		}
+/**
+ * array_key_first — Gets the first key of an array
+ * @params map[interface{}]interface{} array An array.
+ *
+ * @return interface{}
+ */
+func Array_key_first(array map[interface{}]interface{}) interface{} {
+	var k interface{}
+	for key, _ := range array {
+		k = key
+		break;
 	}
-		return diffArr
+	return k
 }

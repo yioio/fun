@@ -8,14 +8,13 @@ import (
 )
 
 //
-func Test_Array_push(t *testing.T) {
-
-	Convey("检查： Array_push", t, func() {
-		orgArr := []interface{}{"test", 000, "ok"}
-		funArray.Array_push(&orgArr, "test0")   // []
-		log.Println("Test_Array_push 1 return is ", orgArr)
-		So(orgArr, ShouldEqual, orgArr)
+func Test_Array_rand(t *testing.T) {
+	Convey("检查： Array_rand", t, func() {
+		orgArr := map[interface{}]interface{}{"test":"test",0:"0", "22":0, "00":"89", "220":"123", "te":"888"}
+		randElement := funArray.ArrayRand(orgArr, 5)   // []
+		log.Println("Test_Array_rand1 return is ", randElement)
+		// 获取到的第一个随机元素
+		Frist := orgArr[randElement[0]]
+		log.Println("Test_Array_rand1 first is ", Frist)
 	})
-
-
 }

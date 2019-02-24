@@ -4,15 +4,12 @@ import(
 	// "reflect"
 )
 
-func Array_count_values(arr []interface{}) map[interface{}]uint {
-	countValues := make(map[interface{}]uint)
-	for _, v := range arr {
-		if c, ok := countValues[v]; ok {
-			countValues[v] = c + 1
-		} else {
-			countValues[v] = 1
+func Array_diff(array1 , array2  []interface{})  []interface{} {
+	diffArr :=  []interface{}{}
+	for _, val := range array1 {
+		if In_array(val, array2) == false {
+			diffArr = append(diffArr, val)
 		}
 	}
-
-	return countValues
+		return diffArr
 }

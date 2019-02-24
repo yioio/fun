@@ -8,13 +8,13 @@ import (
 )
 
 //
-func Test_Array_push(t *testing.T) {
+func Test_Array_pop(t *testing.T) {
 
-	Convey("检查： Array_push", t, func() {
+	Convey("检查： Array_pop", t, func() {
 		orgArr := []interface{}{"test", 000, "ok"}
-		funArray.Array_push(&orgArr, "test0")   // []
-		log.Println("Test_Array_push 1 return is ", orgArr)
-		So(orgArr, ShouldEqual, orgArr)
+		popElem := funArray.Array_pop(&orgArr)   // []
+		log.Println("Array_pop 1 return is ", orgArr, popElem)
+		//So(orgArr, ShouldEqual, orgArr)
 	})
 
 

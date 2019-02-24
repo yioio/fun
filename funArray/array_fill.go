@@ -1,17 +1,17 @@
 package funArray
 
-/**
-  * array_fill_keys — 使用指定的键和值填充数组
-  * @params []interface{} arrayKeys  使用该数组的值作为键
-  * @params []interface{} arrayValues  填充使用的值 这里是一个数组，方便支持多个值
-  */
-func Array_fill_keys(arrayKeys [] interface{}, arrayValues []interface{}) map[interface{}]interface{} {
+//import (
+//	"log"
+//	)
+
+func Array_fill(start_index int, num uint, value interface{}) map[interface{}]interface{} {
 	fillArr := map[interface{}]interface{}{}
-	for _, v := range arrayKeys {
-		for _, val := range arrayValues {
-			fillArr[v] = val
-		}
+	var i uint
+	for i = 1; i <= num; i++ {
+		//log.Println(i)
+		fillArr[start_index] = value
+		start_index++
 	}
+
 	return fillArr
 }
-

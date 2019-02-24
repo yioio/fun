@@ -8,18 +8,12 @@ import (
 )
 
 //
-func Test_Array_diff(t *testing.T) {
-
-	Convey("检查： Array_key_exists", t, func() {
-		t1_arr1 :=[]interface{}{"test1", "test2"}
-		t1_arr2 := []interface{}{"test2"}
-		processRet1 := funArray.Array_diff(t1_arr1, t1_arr2)
-		log.Println("Array_diff 1 return is ", processRet1)  // test1
-		t2_arr1 :=[]interface{}{"test1", "test2"}
-		t2_arr2 := []interface{}{"test1", "test2"}
-		processRet2 := funArray.Array_diff(t2_arr1, t2_arr2)   // []
-		log.Println("Array_diff 2 return is ", processRet2)
-		//So(processRet1, ShouldEqual, true)
-		//So(processRet2, ShouldEqual, true)
+func Test_Array_count_values(t *testing.T) {
+	Convey("检查： Test_Array_count_values", t, func() {
+		//t1_arrKeys := []string{"1", "2", "3","4"}
+		t1_arr1 :=[]interface{}{"test1","test1",0,0,0,0,"test1", "test2", "test2"}
+		t1_res := funArray.Array_count_values(t1_arr1);
+		log.Println("Test_Array_count_values return", t1_res)
+		So(t1_res, ShouldEqual, t1_res)
 	})
 }

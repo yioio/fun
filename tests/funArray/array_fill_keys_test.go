@@ -8,18 +8,13 @@ import (
 )
 
 //
-func Test_Array_diff(t *testing.T) {
+func Test_Array_fill(t *testing.T) {
 
-	Convey("检查： Array_key_exists", t, func() {
-		t1_arr1 :=[]interface{}{"test1", "test2"}
-		t1_arr2 := []interface{}{"test2"}
-		processRet1 := funArray.Array_diff(t1_arr1, t1_arr2)
-		log.Println("Array_diff 1 return is ", processRet1)  // test1
-		t2_arr1 :=[]interface{}{"test1", "test2"}
-		t2_arr2 := []interface{}{"test1", "test2"}
-		processRet2 := funArray.Array_diff(t2_arr1, t2_arr2)   // []
-		log.Println("Array_diff 2 return is ", processRet2)
-		//So(processRet1, ShouldEqual, true)
-		//So(processRet2, ShouldEqual, true)
+	Convey("检查： Array_fill_keys", t, func() {
+		t1_kyes := []interface{}{"test",123,"0123"}
+		t1_values := []interface{}{"test2"}
+		processRet1 := funArray.Array_fill_keys(t1_kyes, t1_values)   // []
+		log.Println("Test_Array_fill_keys 1 return is ", processRet1)
+		So(processRet1, ShouldEqual, processRet1)
 	})
 }
