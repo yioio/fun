@@ -2,8 +2,8 @@
 
 | Status | Fuction |      Description      | Reference | Link |
 | ----- | ----- | ----- | ----- | ------ | 
-| <input type="radio" checked /> - | array_change_key_case | Changes the case of all keys in an array | array | <a href="array_change_key_case.go">code</a>  <a href="array_change_key_case.go">unit test</a>  <a href="array_change_key_case.go">php.net</a>  | array_change_key_case_test.go | http://php.net/manual/en/function.array-change-key-case.php |
-| <input type="radio" disabled="1" />  | array_chunk | Split an array into chunks | array | 1 |
+|  √ | array_change_key_case | Changes the case of all keys in an array | array | <a href="array_change_key_case.go">code</a>  <a href="array_change_key_case.go">unit test</a>  <a href="array_change_key_case.go">php.net</a>  | array_change_key_case_test.go | http://php.net/manual/en/function.array-change-key-case.php |
+|| array_chunk | Split an array into chunks | array | 1 |
 
 ## 其它信息
 字符串：
