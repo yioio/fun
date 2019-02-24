@@ -1,4 +1,4 @@
-package funFilesystem
+package temp
 
 import (
 	."github.com/smartystreets/goconvey/convey"
