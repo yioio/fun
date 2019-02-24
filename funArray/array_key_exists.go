@@ -4,13 +4,8 @@ import(
 	// "reflect"
 )
 
-func Array_key_exists(needle string, haystack map[string]interface{}) bool {
+func Array_key_exists(needle interface{}, haystack map[interface{}]interface{}) bool {
 	var isExist = false
-	for key , _ := range haystack{
-		if(needle == key) {
-			isExist = true
-		}
-	}
+	_, isExist = haystack[needle]
 	return isExist
 }
-
