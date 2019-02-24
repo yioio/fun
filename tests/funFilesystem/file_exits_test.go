@@ -1,4 +1,4 @@
-package funDatatype 
+package funFilesystem
 
 import (
     "testing"
