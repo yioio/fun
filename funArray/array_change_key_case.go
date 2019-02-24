@@ -11,15 +11,15 @@ import(
  * changeTo 可取值为 funArray.CASE_UPPER | funArray.CASE_LOWER
  */
 func Array_change_key_case(arrayOrigin map[string]interface{}, changeTo int) map[string]interface{} {
-	
+
 	arrayReturn := make(map[string]interface{})
 	for key, value := range arrayOrigin {
 
 		keyNew := ""
-		
+
 		if (changeTo == CASE_UPPER) {
 			keyNew = strings.ToUpper(key)
-		} else if(changeTo == CASE_LOWER) {		
+		} else if(changeTo == CASE_LOWER) {
 			keyNew = strings.ToLower(key)
 		} else {
 			keyNew = key
