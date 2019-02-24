@@ -22,8 +22,10 @@ https://github.com/yioio/fun/blob/master/doc/wiki.md
     )
 
     func main() {
-        ret := funArray.In_array("cat", []interface{}{"cat", "dog"})
-        log.Println(ret)
+        ret1 := funArray.In_array("cat", []interface{}{"cat", "dog"})
+        ret2 := funArray.In_array_string("cat", []string{"cat", "dog"})
+        log.Println(ret1)
+        log.Println(ret2) 
     }
 
 # Code Contribution Guide 代码贡献指南 #
