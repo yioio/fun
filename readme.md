@@ -1,5 +1,5 @@
 # Introduction 简介 #
-1. Use Golang implement the commonly used built-in PHP functions. 使用Golang实现PHP的常用内置函数。
+1. Use Golang implement the commonly used built-in PHP functions. 使用Golang实现PHP的内置函数。
 2. Similar to php2go | php2golang | go2php | golang2php and other projects. 类似于 php2go | php2golang | go2php | golang2php 等项目
 
 # Wiki #
