@@ -6,7 +6,7 @@ import (
 	"github.com/yioio/fun/funString"
 )
 
-func StrRepeat_test(t *testing.T) {
+func Test_StrRepeat(t *testing.T) {
 
 	Convey("重复一个字符串", t, func() {
 

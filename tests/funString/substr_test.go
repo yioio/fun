@@ -6,7 +6,7 @@ import (
 	"github.com/yioio/fun/funString"
 )
 
-func Substr_test(t *testing.T) {
+func Test_Substr(t *testing.T) {
 
 	Convey("使用一个字符串分割另一个字符串", t, func() {
 

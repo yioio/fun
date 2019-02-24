@@ -6,7 +6,7 @@ import (
 	"github.com/yioio/fun/funString"
 )
 
-func NumberFormat_test(t *testing.T) {
+func Test_NumberFormat(t *testing.T) {
 
 	Convey("使用一个字符串分割另一个字符串", t, func() {
 

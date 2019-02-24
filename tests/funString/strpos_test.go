@@ -6,7 +6,7 @@ import (
 	"github.com/yioio/fun/funString"
 )
 
-func Strpos_test(t *testing.T) {
+func Test_Strpos(t *testing.T) {
 
 	Convey("查找字符串首次出现的位置", t, func() {
 

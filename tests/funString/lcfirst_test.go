@@ -6,7 +6,7 @@ import (
 	"github.com/yioio/fun/funString"
 )
 
-func Lcfirst_test(t *testing.T) {
+func Test_Lcfirst(t *testing.T) {
 
 	Convey("使一个字符串的第一个字符小写", t, func() {
 

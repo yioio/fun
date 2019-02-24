@@ -6,7 +6,7 @@ import (
 	"github.com/yioio/fun/funString"
 )
 
-func Strrpos_test(t *testing.T) {
+func Test_Strrpos(t *testing.T) {
 
 	Convey("计算指定字符串在目标字符串中最后一次出现的位置（不区分大小写）", t, func() {
 

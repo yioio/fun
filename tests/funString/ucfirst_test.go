@@ -6,7 +6,7 @@ import (
 	"github.com/yioio/fun/funString"
 )
 
-func Ucfirst_test(t *testing.T) {
+func Test_Ucfirst(t *testing.T) {
 
 	Convey("将字符串的首字母转换为大写", t, func() {
 

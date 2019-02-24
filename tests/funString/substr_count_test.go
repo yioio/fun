@@ -6,7 +6,7 @@ import (
 	"github.com/yioio/fun/funString"
 )
 
-func SubstrCount_test(t *testing.T) {
+func Test_SubstrCount(t *testing.T) {
 
 	Convey("计算字串出现的次数", t, func() {
 

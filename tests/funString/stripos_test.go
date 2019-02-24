@@ -7,7 +7,7 @@ import (
 	"github.com/yioio/fun/funString"
 )
 
-func Stripos_test(t *testing.T) {
+func Test_Stripos(t *testing.T) {
 
 	Convey("查找字符串首次出现的位置", t, func() {
 
