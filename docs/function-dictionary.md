@@ -1,7 +1,7 @@
 # Functional dictionary & development plan &  功能字典 & 开发计划#
 
-  [ ] 未开始
-  [x] 已完成
+  * [ ] 未开始
+  * [x] 已完成
 
 | Status | Fuction |      Description      | Reference | Link |
 | ----- | ----- | ----- | ----- | ------ | 
