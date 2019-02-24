@@ -1,24 +1,52 @@
-类似于 php2go 项目
+# Introduction 简介 #
+1. Use Golang implement the commonly used built-in PHP functions. 使用Golang实现PHP的内置函数。
+2. Similar to php2go | php2golang | go2php | golang2php and other projects. 类似于 php2go | php2golang | go2php | golang2php 等项目
+3. Welcome all friends who are familiar with or recognize PHP built-in functions to use and improve this project. 欢迎所有熟悉或者认可 php 内置函数的朋友们一起使用并完善本项目
 
-欢迎加入QQ 群讨论：655685367
+## Wiki
+All document entries for this project 本项目所有文档入口
 
-字符串：
-http://php.net/manual/zh/ref.strings.php
+https://github.com/yioio/fun/blob/master/docs/wiki.md
 
-数组：
-http://php.net/manual/zh/ref.array.php
+# Instructions 使用说明 
 
-变量：
-http://php.net/manual/zh/ref.var.php
+## Download and install & 下载安装 
 
-文件系统：
-http://php.net/manual/zh/ref.filesystem.php
+    go get -u github.com/yioio/fun
+    go get -u github.com/smartystreets/goconvey/convey 
 
-日期与时间：
-http://php.net/manual/zh/ref.datetime.php
-<!-- http://php.net/manual/zh/refs.calendar.php
-http://php.net/manual/zh/book.datetime.php
-http://php.net/manual/zh/ref.datetime.php -->
+## Example 示例 
 
-hash:
-http://php.net/manual/en/ref.hash.php 
+    package main
+
+    import (
+        "github.com/yioio/fun/funArray"
+        "log"
+    )
+
+    func main() {
+
+        ret1 := funArray.In_array("cat", []interface{}{"cat", "dog"})
+        ret2 := funArray.In_array_string("cat", []string{"cat", "dog"})
+        log.Println(ret1)
+        log.Println(ret2) 
+    }
+
+# Other 其它
+
+## Functional dictionary & development plan &  功能字典 & 开发计划
+https://github.com/yioio/fun/blob/master/docs/function-dictionary.md
+
+## Code Contribution Guide 代码贡献指南 
+https://github.com/yioio/fun/blob/master/docs/guide-code-contribution.md
+
+## Feedback  反馈 
+
+If you have questions, Your could: 如果有问题，可以：
+1. Discuss on issue. 在 issue 进行讨论 https://github.com/yioio/fun/issues 
+1. An email to yumoop@163.com is welcome. 欢迎发邮件至 yumoop@163.com
+1. 加入 QQ 群讨论：655685367
+
+## LICENSE 
+
+Released under <a href="https://github.com/yioio/fun/blob/master/LICENSE">MIT</a> LICENSE
