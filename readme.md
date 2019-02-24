@@ -43,4 +43,4 @@ https://github.com/yioio/fun/blob/master/docs/function-dictionary.md
 
 If you have questions, an email to yumoop@163.com is welcome
 
-如果您有任何问题，欢迎发邮件至yumoop@163.com或者加入 QQ 群讨论：655685367
+如果您有任何问题，欢迎发邮件至 yumoop@163.com 或者加入 QQ 群讨论：655685367
