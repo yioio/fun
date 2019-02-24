@@ -5,7 +5,7 @@
 # Wiki #
 All document entries for this project 本项目所有文档入口
 
-https://github.com/yioio/fun/blob/master/doc/wiki.md
+https://github.com/yioio/fun/blob/master/docs/wiki.md
 
 # 下载安装 #
     go get -u github.com/yioio/fun
@@ -28,10 +28,10 @@ https://github.com/yioio/fun/blob/master/doc/wiki.md
     }
 
 # Code Contribution Guide 代码贡献指南 #
-https://github.com/yioio/fun/blob/master/doc/guide-code-contribution.md
+https://github.com/yioio/fun/blob/master/docs/guide-code-contribution.md
 
 # Functional dictionary & development plan &  功能字典 & 开发计划#
-https://github.com/yioio/fun/blob/master/doc/function-dictionary.md
+https://github.com/yioio/fun/blob/master/docs/function-dictionary.md
 
 # Feedback  反馈 #
 If you have questions, an email to yumoop@163.com is welcome
