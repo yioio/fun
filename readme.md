@@ -42,6 +42,7 @@ https://github.com/yioio/fun/blob/master/docs/guide-code-contribution.md
 
 ## Feedback  反馈 
 
-If you have questions, an email to yumoop@163.com is welcome
-
-如果您有任何问题，欢迎发邮件至 yumoop@163.com 或者加入 QQ 群讨论：655685367
+If you have questions, Your could: 如果有问题，可以：
+1. Discuss on issue. 在 issue 进行讨论 https://github.com/yioio/fun/issues 
+1. An email to yumoop@163.com is welcome. 欢迎发邮件至 yumoop@163.com
+1. 加入 QQ 群讨论：655685367
