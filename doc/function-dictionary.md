@@ -1,3 +1,5 @@
+# Functional dictionary & development plan &  功能字典 & 开发计划#
+
 字符串：
 http://php.net/manual/zh/ref.strings.php
 

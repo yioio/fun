@@ -1,5 +1,6 @@
 # 仓库简介 #
-类似于 php2go | php2golang | go2php | golang2php 等项目
+1. Use Golang implement the commonly used built-in PHP functions. 使用Golang实现PHP的常用内置函数。
+2. Similar to php2go | php2golang | go2php | golang2php and other projects. 类似于 php2go | php2golang | go2php | golang2php 等项目
 
 # Wiki #
 All document entries for this project 本项目所有文档入口
@@ -29,10 +30,9 @@ https://github.com/yioio/fun/blob/master/doc/wiki.md
 # Code Contribution Guide 代码贡献指南 #
 https://github.com/yioio/fun/blob/master/doc/guide-code-contribution.md
 
-# Function Dictionary 功能字典 #
+# Functional dictionary & development plan &  功能字典 & 开发计划#
 https://github.com/yioio/fun/blob/master/doc/function-dictionary.md
 
 # Feedback  反馈 #
 If you have questions, an email to yumoop@163.com is welcome
-
-欢迎加入QQ 群讨论：655685367
+如果您有任何问题，欢迎发邮件至yumoop@163.com或者加入 QQ 群讨论：655685367
