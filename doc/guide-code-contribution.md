@@ -1,17 +1,9 @@
 # Code Contribution Guide 代码贡献指南 #
 
-## 1、How to write code 如何写代码 ##
+# 1、Coding standards 编码规范 #
 
-1. 每一个文件需要放在被归类好的文件夹下。文件夹以函数功能功别命名,并以 fun 开头，如 in_array 属于 php 的 array 函数，则其文件夹名为 funArray
-1. 每一个 php 函数对应一个文件。如 in_array，的文件名为 fun/funArray/in_array.go
-
-## 2、How to write unit tests 如何写单元测试 ##
-
-<hr>
-
-# 1、How to write code 如何写代码 #
-
-## 代码编写要点 ##
+1. 子文件夹以函数功能命名,且以 fun 开头，如 in_array 属于 array 函数，则其文件夹名为 funArray
+1. 每个go 文件只实现一个 php 函数。如 in_array，的文件名为 fun/funArray/in_array.go
 
 # 2、How to write unit tests 如何写单元测试 #
 
