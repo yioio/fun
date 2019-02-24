@@ -14,10 +14,17 @@ https://github.com/yioio/fun/blob/master/doc/wiki.md
 
 # 使用示例 #
 
-package main
+    package main
 
+    import (
+        "github.com/yioio/fun/funArray"
+        "log"
+    )
 
-
+    func main() {
+        ret := funArray.In_array("cat", []interface{}{"cat", "dog"})
+        log.Println(ret)
+    }
 
 # Code Contribution Guide 代码贡献指南 #
 https://github.com/yioio/fun/blob/master/doc/guide-code-contribution.md
