@@ -4,7 +4,7 @@ package funFilesystem
 import (
 	."github.com/smartystreets/goconvey/convey"
 	"testing"
-	"../../funFilesystem"
+	"github.com/yioio/fun/funFilesystem"
 	"runtime"
 	"path"
 )
