@@ -1,7 +1,7 @@
 package funString
 
 import (
-	"fun/funString"
+	"github.com/yioio/fun/funString"
 	. "github.com/smartystreets/goconvey/convey"
 	"testing"
 )
