@@ -13,9 +13,12 @@ func Strripos(haystack, needle string, offset int) int {
 	} else {
 		haystack = haystack[offset:]
 	}
+
 	pos = strings.LastIndex(strings.ToLower(haystack), strings.ToLower(needle))
+
 	if offset > 0 && pos != -1 {
 		pos += offset
 	}
+	
 	return pos
 }

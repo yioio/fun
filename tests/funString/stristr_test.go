@@ -10,8 +10,8 @@ func Test_Stristr(t *testing.T) {
 
 	Convey("查找字符串的首次出现", t, func() {
 
-		So(funString.Strstr("aBcd", "bc", false), ShouldEqual, "bcd")
-		So(funString.Strstr("abCd", "bc", true), ShouldEqual, "a")
+		So(funString.Stristr("aBcd", "bc", false), ShouldEqual, "Bcd")
+		So(funString.Stristr("abCd", "bc", true), ShouldEqual, "a")
 
 	})
 }
