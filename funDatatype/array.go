@@ -40,3 +40,12 @@ func ArrayFloat64_to_arrayString(array []int) []string {
 	
 	return arrayRet
 }
+
+// 将  []string 转成 []interface{}
+func StringArr_to_interfaceArr(interfaceArr []string) ([]interface{}) {
+	var strArr []interface{}
+	for _, v := range interfaceArr {
+		strArr = append(strArr, v)
+	}
+	return strArr
+}
