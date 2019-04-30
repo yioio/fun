@@ -6,7 +6,7 @@ import (
 	"github.com/yioio/fun/funString"
 )
 
-func Rtrim_test(t *testing.T) {
+func Test_Rtrim(t *testing.T) {
 
 	Convey("删除字符串末端的空白字符（或者其他字符）", t, func() {
 

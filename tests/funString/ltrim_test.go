@@ -6,7 +6,7 @@ import (
 	"github.com/yioio/fun/funString"
 )
 
-func Ltrim_test(t *testing.T) {
+func Test_Ltrim(t *testing.T) {
 
 	Convey("删除字符串开头的空白字符（或其他字符）", t, func() {
 

@@ -6,7 +6,7 @@ import (
 	"github.com/yioio/fun/funString"
 )
 
-func StrReplace_test(t *testing.T) {
+func Test_StrReplace(t *testing.T) {
 
 	Convey("子字符串替换", t, func() {
 

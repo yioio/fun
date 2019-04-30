@@ -6,7 +6,7 @@ import (
 	"github.com/yioio/fun/funString"
 )
 
-func Sha1_test(t *testing.T) {
+func Test_Sha1(t *testing.T) {
 
 	Convey("计算字符串的 sha1 散列值", t, func() {
 

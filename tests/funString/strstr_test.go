@@ -6,7 +6,7 @@ import (
 	"github.com/yioio/fun/funString"
 )
 
-func Strstr_test(t *testing.T) {
+func Test_Strstr(t *testing.T) {
 
 	Convey("查找字符串的首次出现", t, func() {
 

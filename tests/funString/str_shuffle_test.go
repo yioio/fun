@@ -6,7 +6,7 @@ import (
 	"testing"
 )
 
-func StrShuffle_test(t *testing.T) {
+func Test_StrShuffle(t *testing.T) {
 
 	Convey("使一个字符串的第一个字符小写", t, func() {
 

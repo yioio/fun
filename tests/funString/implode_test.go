@@ -6,7 +6,7 @@ import (
 	"github.com/yioio/fun/funString"
 )
 
-func Implode_test(t *testing.T) {
+func Test_Implode(t *testing.T) {
 
 	Convey("将一个一维数组的值转化为字符串", t, func() {
 
